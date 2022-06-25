@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #eeeeee;
+}
+.App{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+.mainSection{
+    width: 550px;
+}
+.navBar{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+.navBar img{
+    width: 32px;
+    height: 27px;
+}
+.navBar h1{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+}
+.memeSection{
+    background-color: #E5E5E5;
+    padding: 36px 36px 50px 36px;
+}
+/* .formMeme{
+    display: grid;
+    grid-template: 40px 40px /1fr 1fr;
+    gap: 17px;
+
+} */
+.formMeme input{
+    width: 230px;
+    height: 35px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-family: 'Karla';
+    text-indent: 8px;
+
+}
+.formMeme button{
+    width: 470px;
+    height: 40px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Karla';
+
+}
+.counter{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.divImage{
+    text-align: center;
+    margin-top: 35px;
+    position: relative;
+
+}
+.divImage img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.top{
+    position: absolute;
+    left: 30%;
+    top: 20px;
+    color: white;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+.bottom{
+    position: absolute;
+    left: 30%;
+    bottom: 20px;
+    color: white;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+}
+
+@media (max-width:776px) {
+    .mainSection{
+        width: 400px;
+        text-align: center;
+    }
+    .formMeme button{
+        width: 300px;
+    }
+    .formMeme input{
+        width: 300px;
+    }
+}
+
+
+
+    
